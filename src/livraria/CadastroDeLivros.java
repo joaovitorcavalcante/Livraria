@@ -13,6 +13,8 @@ public class CadastroDeLivros {
 		autor.nome = "Rodrigo Turini";
 		autor.email = "rodrigo.turini@caelum.com.br";
 		autor.cpf = "123.456.789.10";
+		
+		livro.autor = autor;
 
 		
 		livro.mostrarDetalhe();
